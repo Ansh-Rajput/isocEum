@@ -1,16 +1,30 @@
 let navbarMenu = document.querySelector('.navbar-menu');
 let dropdownIsOpen = false;
 
+let scrollContainor = document.getElementById("gallery");
+let backBtn = document.getElementById("backBtn");
+let nextBtn = document.getElementById("nextBtn");
+
 //open mobile nav menu
 const navButton = document.getElementById('navButton');
-console.log(navButton);
 const header = document.getElementById('header');
-console.log(header);
+
 navButton.addEventListener('click',(event)=>{
     console.log('event');
     header.classList.toggle('active');
 })
 
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.classList.add("loading");
+});
+
+window.addEventListener("load", function() {
+  document.body.classList.remove("loading");
+});
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,hi,en,es,jv,ko,pa,pt,ru,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+}
 
 // // Handle dropdown menu toggle
 // navbarMenu.addEventListener('click', (event) => {

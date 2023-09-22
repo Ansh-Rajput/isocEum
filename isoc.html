@@ -11,6 +11,9 @@
 </head>
 
 <body>
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
   <!-- navbar -->
   
     <header id="header" class="header active">
@@ -21,10 +24,9 @@
         <li><a href="#">Tickets & Visit</a></li>
         <li><a href="#">Art & Stories</a></li>
         <li><a href="#">Contact Us</a></li>
-        <li class="language-option">
+        <!-- <li class="language-option">
           <div class="dropdown">
             <span>Language | <strong>EN</strong></span>
-            <!-- change "en" as per language -->
             <div class="dropdown-content">
               <p>English <img src="./Languages/USA.jpg"></p>
               <p>French <img src="./Languages/France.jpg"></p>
@@ -32,6 +34,9 @@
               <p>Spanish <img src="./Languages/Spain.jpg"></p>
             </div>
           </div>
+        </li> -->
+        <li>
+          <div id="google_translate_element"></div>
         </li>
       </ul>
       <div class="themeButton">
@@ -42,7 +47,6 @@
         <i id="close" class="fa-solid fa-xmark fa-2xl" style="color: #7b00d3;"></i>
       </div>
     </header>
-
 
   <!-- hero -->
   <section>
@@ -63,60 +67,69 @@
       <p> ONGOING EXHIBITIONS</p>
     </div>
     <div class="ongoing-exhib-grid">
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
-        <h3 class="oe-flex-item">Timeless Treasures</h3>
-        <p class="oe-flex-item">
-          Day | Date | Time | Venue
-        </p>
-      </div>
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <!-- <a href="page.html" target="_blank"> -->
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
-        <h3 class="oe-flex-item">Antique Splendours</h3>
-        <p class="oe-flex-item">
-          Day | Date | Time | Venue
-        </p>
-      </div>
-
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
-        <h3 class="oe-flex-item">Relics Unveiled</h3>
-        <p class="oe-flex-item">
-          Day | Date | Time | Venue
-        </p>
-      </div>
+      <a href="page.html" target="_blank">
+        <div class="ongoing-exhib-grid-item oe-flex">
+          <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
+          <h3 class="oe-flex-item">Timeless Treasures</h3>
+          <p class="oe-flex-item">
+            Day | Date | Time | Venue
+          </p>
+        </div>
+      </a>
+      <a href="page.html" target="_blank">
+        <div class="ongoing-exhib-grid-item oe-flex">
+          <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
+          <h3 class="oe-flex-item">Antique Splendours</h3>
+          <p class="oe-flex-item">
+            Day | Date | Time | Venue
+          </p>
+        </div>
+      </a>
+      <a href="page.html" target="_blank">
+        <div class="ongoing-exhib-grid-item oe-flex">
+          <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
+          <h3 class="oe-flex-item">Relics Unveiled</h3>
+          <p class="oe-flex-item">
+            Day | Date | Time | Venue
+          </p>
+        </div>
+      </a>
     </div>
   </section>
 
   <!-- our exhibition gallery -->
   <section>
     <div class="our-gallery">
-      <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
+      <p>OUR EXHIBITION GALLERY</p>
     </div>
-    <div class="our-gallery our-gallery-container">
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-    </div>
-    <div class="our-gallery our-gallery-btn" style="margin-top: 0;">
+    <div class="gallery-wrap our-gallery ">
+      <!-- <img src="images/back.png" alt="img" id="backBtn"> -->
+      <div id="gallery">
+          <div class="scroll">
+            <div>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+            </div>
+            <div>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+            </div>
+            <div>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+              <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+            </div>
+          </div>
+      </div>
+      <!-- <img src="images/next.png" alt="img" id="nextBtn"> -->
+  </div>
+   
+    <div class=" our-gallery-btn" style="margin-top: 0;">
       <button id="explore-gallery">Explore Gallery</button>
     </div>
   </section>
-
   <!-- artisan about -->
   <section>
     <div class="artisan-hub">
@@ -145,7 +158,7 @@
 
   <!-- upcoming exhibitions -->
   <section class="upcoming">
-    <div class="upcoming-exhib">
+    <div class="artisan-hub">
       UPCOMING EXHIBITIONS
     </div>
     <div class="row">
@@ -158,6 +171,7 @@
             <p>Day | Date | Time | Venue</p>
           </div>
         </div>
+      </a>
 
 
         <a href="page.html" target="_blank">
@@ -169,6 +183,7 @@
               <p>Day | Date | Time | Venue</p>
             </div>
           </div>
+        </a>
 
           <a href="page.html" target="_blank">
             <div class="column">
@@ -179,11 +194,12 @@
                 <p>Day | Date | Time | Venue</p>
               </div>
             </div>
+          </a>
 
   </section>
 
   <!-- our newsletter -->
-  <section id="newsletter">
+  <!-- <section id="newsletter">
     <div class="box">
       <img src="https://lh3.google.com/u/0/d/1-WTX2Kw4ZlgLnwT9gYyFOxVXowT9eS-t=w1375-h881-iv1" alt="" />
       <h2>Subscribe to our Newsletter</h2>
@@ -199,7 +215,10 @@
     <button class="floating-btn">
       Get in Touch
     </button>
-  </section>
+  </section> -->
+  <!-- <button class="floating-btn">
+      Get in Touch
+  </button> -->
 
   <footer class="footer">
     <!-- Grid container -->
@@ -207,27 +226,28 @@
       <!-- Section: Social media -->
       <section class="social-media">
         <!-- Facebook -->
-        <a class="btn btn-social btn-facebook" href="#!" role="button">
-          <i class="fab fa-facebook-f"></i>
+        <a class=" btn-social btn-facebook" href="#!" role="button">
+          <!-- <i class="fab fa-facebook-f"></i> -->
+          <i class="fa-brands fa-square-facebook"></i>
         </a>
         <!-- Twitter -->
-        <a class="btn btn-social btn-twitter" href="#!" role="button">
+        <a class=" btn-social btn-twitter" href="#!" role="button">
           <i class="fab fa-twitter"></i>
         </a>
         <!-- Google -->
-        <a class="btn btn-social btn-google" href="#!" role="button">
+        <a class=" btn-social btn-google" href="#!" role="button">
           <i class="fab fa-google"></i>
         </a>
         <!-- Instagram -->
-        <a class="btn btn-social btn-instagram" href="#!" role="button">
+        <a class=" btn-social btn-instagram" href="#!" role="button">
           <i class="fab fa-instagram"></i>
         </a>
         <!-- Linkedin -->
-        <a class="btn btn-social btn-linkedin" href="#!" role="button">
-          <i class="fab fa-linkedin-in"></i>
+        <a class=" btn-social btn-linkedin" href="#!" role="button">
+          <i class="fa-brands fa-linkedin-in"></i>
         </a>
         <!-- Github -->
-        <a class="btn btn-social btn-github" href="#!" role="button">
+        <a class=" btn-social btn-github" href="#!" role="button">
           <i class="fab fa-github"></i>
         </a>
       </section>
@@ -238,38 +258,35 @@
         <form action="">
           <!--Grid row-->
           <div class="newsletter-row">
-            <!--Grid column-->
+            
             <div class="col-auto newsletter-text">
               <p class="pt-2">
                 <strong>Sign up for our newsletter</strong>
               </p>
             </div>
-            <!--Grid column-->
+            
 
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
+            
+            <div class="col-md-5 col-10 ">
               <!-- Email input -->
-              <div class="form-outline form-white mb-4">
+              <div class="form-outline form-white mb-4 w-50">
                 <input
+
                   type="email"
                   id="newsletter-email"
-                  class="form-control"
+                  class="form-control footterInput w-50"
+                  placeholder="Enter email"
                 />
-                <label class="form-label" for="newsletter-email"
-                  >Email address</label
-                >
               </div>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+                        
             <div class="col-auto newsletter-button">
               <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
+              <button type="submit" class="subscribe btn-outline-light mb-4">
                 Subscribe
               </button>
             </div>
-            <!--Grid column-->
+            
           </div>
           <!--Grid row-->
         </form>
@@ -277,21 +294,20 @@
       <!-- Section: Newsletter Form -->
 
       <!-- Section: Text -->
-      <section class="footer-text">
+      <!-- <section class="footer-text">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
           distinctio earum repellat quaerat voluptatibus placeat nam, commodi
           optio pariatur est quia magnam eum harum corrupti dicta, aliquam
           sequi voluptate quas.
         </p>
-      </section>
+      </section> -->
       <!-- Section: Text -->
 
       <!-- Section: Footer Links -->
-      <section class="footer-links">
-        <!--Grid row-->
+      <!-- <section class="footer-links">
         <div class="row1">
-          <!--Grid column-->
+          
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
             <ul class="list-unstyled mb-0">
@@ -299,11 +315,11 @@
               <li><a href="#!" class="footer-link">Link 2</a></li>
             </ul>
           </div>
-          <!--Grid column-->
+          
         </div>
 
         <div class="row2">
-          <!--Grid column-->
+          
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
             <ul class="list-unstyled mb-0">
@@ -311,11 +327,11 @@
               <li><a href="#!" class="footer-link">Link 2</a></li>
             </ul>
           </div>
-          <!--Grid column-->
+          
         </div>
 
         <div class="row3">
-          <!--Grid column-->
+          
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
             <ul class="list-unstyled mb-0">
@@ -323,11 +339,11 @@
               <li><a href="#!" class="footer-link">Link 2</a></li>
             </ul>
           </div>
-          <!--Grid column-->
+          
         </div>
 
         <div class="row4">
-          <!--Grid column-->
+          
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
             <ul class="list-unstyled mb-0">
@@ -335,14 +351,12 @@
               <li><a href="#!" class="footer-link">Link 2</a></li>
             </ul>
           </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
+          
+        </div> 
+      </section> -->
       <!-- Section: Footer Links -->
     </div>
     <!-- Grid container -->
-
     <!-- Copyright -->
     <div class="copyright">
       © 2020 Copyright:
@@ -352,6 +366,7 @@
     </div>
     <!-- Copyright -->
   </footer>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script src="./isoc.js"></script>
 </body>
 
