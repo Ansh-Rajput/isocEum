@@ -1,0 +1,83 @@
+.contact-form {
+    background-color: var(--card-color);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 10rem auto;
+    /* position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+  }
+  
+  .contact-form label {
+    color: var(--text-color);
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: var(--text-color);
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 200px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #7b00d3;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #7b00d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.051);
+    transition: transform 0.3s ease-in-out;
+  }
+
+/* Dark mode */
+
+:root{
+    --text-color:#26333f;
+    /* --card-color:#f2f2f2; */
+    --card-color:#f2f2f2;
+}
+.dark body{
+    --text-color: white;
+    --card-color:#3d3d3d;
+}
+  
