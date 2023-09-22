@@ -1,6 +1,12 @@
 let navbarMenu = document.querySelector('.navbar-menu');
 let dropdownIsOpen = false;
 
+//togle theme
+const themeButton = document.querySelector('.themeButton');
+themeButton.addEventListener('click',()=>{
+  document.getElementById('html').classList.toggle('dark');
+})
+
 let scrollContainor = document.getElementById("gallery");
 let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
@@ -8,10 +14,11 @@ let nextBtn = document.getElementById("nextBtn");
 //open mobile nav menu
 const navButton = document.getElementById('navButton');
 const header = document.getElementById('header');
+const body = document.getElementById('body');
 
 navButton.addEventListener('click',(event)=>{
-    console.log('event');
     header.classList.toggle('active');
+    document.getElementById('html').classList.toggle('paused');
 })
 
 document.addEventListener("DOMContentLoaded", function() {
