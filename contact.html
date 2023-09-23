@@ -60,8 +60,9 @@
                     <h2>Contact Us</h2>
                     <form onsubmit="sendEmail(); reset(); return false">
                         <input id="name" type="text" name="name" placeholder="Enter Your Name">
-                      
                         <input id="email" type="email" name="name" placeholder="Enter Your Email">
+                        
+                        <input id="phoneNo" type="number" name="name" placeholder="Enter Your Number">
                         <textarea id="message" name="message" placeholder="Your Message"></textarea>                   
              <button type="submit" class="btn2">Send <i class="fas fa-paper-plane"></i></button>
                     </form>
@@ -112,7 +113,7 @@
 
       <!-- Section: Newsletter Form -->
       <section class="newsletter">
-        <form action="">
+        <form onsubmit="onSubscribe(); reset(); return false">
           <!--Grid row-->
           <div class="newsletter-row">
             

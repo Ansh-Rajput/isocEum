@@ -19,7 +19,8 @@ body{
     --logo-color:#7b00d3;
     /* --logo-color:red; */
     /* --footer-color:#7158e2; */
-    --footer-color:#4e4677;
+    /* --footer-color:#4e4677; */
+    --footer-color:#662d91;
     --black-color:#3d3d3d;
     /* --card-color:#3d3d3d; */
     --card-color:#fff;
@@ -33,6 +34,7 @@ body{
     --card-color:#3d3d3d;
     --header-bg-light:rgba(67, 67, 67, 0.5);
     --body-color:var(--black-color-2);
+    --footer-color:#452c63;
 }
 section{
     padding-bottom: 2rem;

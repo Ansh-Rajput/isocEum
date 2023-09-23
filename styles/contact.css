@@ -73,6 +73,8 @@
     font-family: 'poppins',sans-serif;
 }
 body{
+  /* --footer-color:#4B0082; */
+  --footer-color:#33006F;
   background-color: var(--bg-color) ;
   --main-color:#7b00d3;
   --logo-color:#7b00d3;
