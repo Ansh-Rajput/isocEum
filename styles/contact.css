@@ -150,7 +150,7 @@ input{
 }
 .btn:hover,
 button:hover{
-    color: #97359c;
+    background-color: #97359c;
     transition: 0.5s ease;
 }
 .contact-form form{

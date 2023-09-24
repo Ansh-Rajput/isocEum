@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+/* .swiper-wrapper{
+    padding: 2rem;
+} */
 body{
     color: black;
     background: var(--body-color);
@@ -161,6 +164,14 @@ a {
 }
 .themeButton{
     color: var(--logo-color);
+}
+.themeButton:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #97359c;
+    transition: 0.5s ease;
 }
 .language-option {
     background-color: none;
@@ -511,11 +522,26 @@ p.oe-flex-item {
     padding: 10px 50px;
     color: black;
 } */
+.slide-containor{
+    max-width: 1020px;
+    width: 100%;
+}
+.slide-content{
+    margin: 0 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.swiper-pagination{
+    color: var(--main-color);
+}
 .ongoingCard{
+    /* margin: 2rem; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-color: var(--card-color);
     border-radius: 10px;
     padding: 1rem;
+    /* width: 100%;
+    max-width: 320px; */
 }
 .scrollCard{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
