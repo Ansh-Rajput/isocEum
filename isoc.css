@@ -531,8 +531,16 @@ p.oe-flex-item {
     border-radius: 10px;
     overflow: hidden;
 }
+.slide-content2{
+    margin: 0 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 .swiper-pagination{
     color: var(--main-color);
+}
+.swiper-pagination2{
+    margin-right: 0;
 }
 .ongoingCard{
     /* margin: 2rem; */

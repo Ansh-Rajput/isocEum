@@ -70,9 +70,35 @@
       <p> ONGOING EXHIBITIONS</p>
     </div>
     <div class="swiper slide-containor" style="padding: 40px 0;">
-      <div class="slide-content">
+      <div class="slide-content" style="padding: 10px;">
         <div class="swiper-wrapper">
-         
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
+              <h3 class="oe-flex-item">Timeless Treasures</h3>
+              <p class="oe-flex-item">
+                Day | Date | Time | Venue
+              </p>
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
+              <h3 class="oe-flex-item">Antique Splendours</h3>
+              <p class="oe-flex-item">
+                Day | Date | Time | Venue
+              </p>
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
+              <h3 class="oe-flex-item">Relics Unveiled</h3>
+              <p class="oe-flex-item">
+                Day | Date | Time | Venue
+              </p>
+            </div>
+          </a>
           <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
             <div class="ongoing-exhib-grid-item oe-flex">
               <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
@@ -168,45 +194,65 @@
   </section>
 
   <!-- upcoming exhibitions -->
-  <section class="upcoming">
+  <section >
     <div class="artisan-hub">
       UPCOMING EXHIBITIONS
     </div>
-    <div class="row">
-      <a href="page.html" target="_blank">
-        <div class="column">
-          <div class="card">
-            <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
+    <div class="swiper slide-containor" style="padding: 40px 0;">
+      <div class="slide-content2" style="padding: 10px;">
+        <div class="swiper-wrapper">
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-1.jpg" style="width:100%">
             <h2 class="upcoming-exhib-about">Regal Reverie</h2>
             <p class="small-intro"> Small Intro</p>
             <p>Day | Date | Time | Venue</p>
-          </div>
-        </div>
-      </a>
-
-
-      <a href="page.html" target="_blank">
-        <div class="column">
-          <div class="card">
-            <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-2.jpg" style="width:100%">
             <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
             <p class="small-intro"> Small intro</p>
             <p>Day | Date | Time | Venue</p>
-          </div>
-        </div>
-      </a>
-
-      <a href="page.html" target="_blank">
-        <div class="column">
-          <div class="card">
-            <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-3.jpg" style="width:100%">
             <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
             <p class="small-intro"> Small intro</p>
             <p>Day | Date | Time | Venue</p>
-          </div>
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-1.jpg" style="width:100%">
+            <h2 class="upcoming-exhib-about">Regal Reverie</h2>
+            <p class="small-intro"> Small Intro</p>
+            <p>Day | Date | Time | Venue</p>
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-2.jpg" style="width:100%">
+            <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
+            <p class="small-intro"> Small intro</p>
+            <p>Day | Date | Time | Venue</p>
+            </div>
+          </a>
+          <a href="pages/page.html" target="_blank" class="ongoingCard swiper-slide">
+            <div class="ongoing-exhib-grid-item oe-flex">
+              <img class="oe-flex-item" src="./Upcoming/Upcoming-3.jpg" style="width:100%">
+            <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
+            <p class="small-intro"> Small intro</p>
+            <p>Day | Date | Time | Venue</p>
+            </div>
+          </a>
         </div>
-      </a>
-
+      </div>
+      <div class="swiper-pagination2" style="--swiper-theme-color:#7b00d3; position: absolute;"></div>
+    </div>
   </section>
 
   <!-- our newsletter -->
@@ -376,7 +422,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".slide-content ", {
+    var swiper = new Swiper(".slide-content ",{
       slidesPerView: 3,
       spaceBetween: 30,
       loop:true,
@@ -385,6 +431,34 @@
       grabCursor:'true',
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets:true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 3,
+        },
+      },
+    });
+    var swiper2 = new Swiper(".slide-content2 ",{
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop:true,
+      centerSlide:'true',
+      fade:'true',
+      grabCursor:'true',
+      pagination: {
+        el: ".swiper-pagination2",
         clickable: true,
         dynamicBullets:true,
       },
