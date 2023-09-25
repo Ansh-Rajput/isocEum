@@ -312,7 +312,7 @@
 
       <!-- Section: Newsletter Form -->
       <section class="newsletter">
-        <form action="">
+        <form onsubmit="onSubscribe(); reset(); return false">
           <!--Grid row-->
           <div class="newsletter-row">
 
@@ -343,70 +343,6 @@
           <!--Grid row-->
         </form>
       </section>
-      <!-- Section: Newsletter Form -->
-
-      <!-- Section: Text -->
-      <!-- <section class="footer-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-          optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-          sequi voluptate quas.
-        </p>
-      </section> -->
-      <!-- Section: Text -->
-
-      <!-- Section: Footer Links -->
-      <!-- <section class="footer-links">
-        <div class="row1">
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          
-        </div>
-
-        <div class="row2">
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          
-        </div>
-
-        <div class="row3">
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          
-        </div>
-
-        <div class="row4">
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          
-        </div> 
-      </section> -->
-      <!-- Section: Footer Links -->
     </div>
     <!-- Grid container -->
     <!-- Copyright -->
@@ -420,6 +356,7 @@
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script src="./isoc.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".slide-content ",{
@@ -479,6 +416,7 @@
       },
     });
   </script>
+  <script src="scripts/contact.js"></script>
 </body>
 
 </html>

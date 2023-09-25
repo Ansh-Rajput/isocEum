@@ -58,11 +58,11 @@
             <div class="contactMain">
                 <div class="content">
                     <h2>Contact Us</h2>
-                    <form onsubmit="sendEmail(); reset(); return false">
+                    <form onsubmit="contactUs(); reset(); return false">
                         <input id="name" type="text" name="name" placeholder="Enter Your Name">
                         <input id="email" type="email" name="name" placeholder="Enter Your Email">
                         
-                        <input id="phoneNo" type="number" name="name" placeholder="Enter Your Number">
+                        <input id="number" type="number" name="number" placeholder="Enter Your Number">
                         <textarea id="message" name="message" placeholder="Your Message"></textarea>                   
              <button type="submit" class="btn2">Send <i class="fas fa-paper-plane"></i></button>
                     </form>
@@ -162,7 +162,6 @@
   </footer>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script src="../isoc.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="../scripts/contact.js"></script>
 </body>
 
