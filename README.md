@@ -1,50 +1,80 @@
-# ISOC'23 Web Development Track: Popularising Local Artifacts - An Open Source Challenge
 
-Welcome to the ISOC'23 Web Development Track! In this open source competition, your challenge is to draw inspiration and elevate the provided base project, which is dedicated to promoting and popularizing local artifacts through a web-based platform. We highly encourage the display of creativity, innovation, and meticulous attention to detail in your contributions. Please meticulously peruse this README for comprehensive project details and guidelines.
+# Local Artifacts Promotion Website
 
-## Project Overview
+This is an open-source website dedicated to promoting local artifacts. In this README, we'll outline the key enhancements and features that have been added to the base project.
 
-The primary objective of this project is to craft an open-source website dedicated to the promotion of local artifacts. While the base project has been graciously provided as a reference, participants are fervently encouraged to augment and enhance its features. Below, you will find a detailed list of essential features and prerequisites:
+## Table of Contents
 
-### Issues
+- [Local Artifacts Promotion Website](#local-artifacts-promotion-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Toggle Light and Dark Mode](#toggle-light-and-dark-mode)
+    - [Sticky Navbar](#sticky-navbar)
+    - [CSS Enhancements](#css-enhancements)
+    - [Responsive Design](#responsive-design)
+    - [Button Functionality](#button-functionality)
+    - [Multilingual Support](#multilingual-support)
+    - [Newsletter Subscription Backend](#newsletter-subscription-backend)
+    - [Contact Us page](#contact-us-page)
+  - [Getting Started](#getting-started)
 
-1. **Toggle Light and Dark Mode:** Empower users with the ability to seamlessly switch between light and dark modes, thereby elevating their browsing experience.
 
-2. **Sticky Navbar:** Create an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices.
+## Features
 
-3. **CSS Enhancements:** Elevate the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Endeavor to imbue dynamism into static components wherever feasible.
+### Toggle Light and Dark Mode
 
-4. **Button Functionality:** Imbue all provided buttons within the base project with full functionality, ensuring they perform their designated actions seamlessly. Participants are encouraged to introduce additional features that align with their creative vision.
+- Users can now switch between light and dark modes to enhance their browsing experience.
+- To toggle between modes, look for the moon icon in the navbar of website.
 
-5. **Multilingual Support:** Provide language change options for English, French, German, and Spanish as a minimum requirement, offering an inclusive and accessible user interface.
+### Sticky Navbar
 
-6. **Exhibition Categorization:** Implement a robust filtration system for categorizing artifacts, allowing users to explore and discover artifacts based on type, chronology, rarity, and other pertinent criteria.
+- The navigation bar is now adaptive and sticky, providing a seamless experience across different screen sizes.
+- The navigation bar automatically adjusts to ensure uninterrupted navigation, especially on mobile devices.
 
-7. **Contact Us:** Establish a "Contact Us" section equipped with a robust database for efficiently managing inquiries and user feedback.
+### CSS Enhancements
 
-8. **Add to Calendar Functionality:** Enable users to add events and exhibition dates to their calendars for easy event tracking and reminders.
+- Added self-scrolling at defined intervals to create a dynamic feel to the website.
+- Improved scrollability with support for mouse, keypad, and touch-based scrolling.
+- Enhanced the user-friendly artifact carousels for smoother navigation.
+- Added an elegant preloader to make the website more visually appealing.
 
-9. **Ticket Booking System:** Implement a robust ticket booking system frontend, allowing users to purchase tickets for exhibitions and manage their bookings.
+### Responsive Design
 
-10. **Share Event Details:** Enable users to share event details and artifacts using social media platforms and provide a "Copy URL" functionality for easy sharing.
+- The website is designed to be responsive, adapting to different screen sizes and devices. Whether users access the website on a desktop computer, tablet, or mobile phone, the website remains accessible and easy to use.
 
-11. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
+### Button Functionality
 
-12. **User Reviews and Ratings:** Elevate user engagement and interaction by introducing a sophisticated review and rating system. Develop intuitive user interfaces for submitting and displaying reviews, and calculate ratings to display average ratings, providing valuable insights to your audience.
+- All buttons within the project have been fully functional, ensuring they perform their designated actions seamlessly.
+- It includes the subscribe functionality.
 
-13. **360-Degree Gallery View:** Immerse users in an interactive 360-degree & 3D gallery view, situated on the Exhibition (or an analogous page in accordance with your site's structure). This feature should facilitate touch and mouse-based rotation without the need for arrow buttons, offering an intuitive and sensorial artifact exploration experience.
+### Multilingual Support
 
-14. **360-Degree Artifact Rotation:** Introduce a 360-degree artifact viewing capability to the Gallery (or a suitable page as per your site's layout), enabling users to comprehensively examine artifacts from every conceivable angle. 
+- The website now offers language change options  to provide an inclusive and accessible user interface.
+- Users can easily switch between languages to explore artifacts in their preferred language.
 
-### Additional Notes
+### Newsletter Subscription Backend
 
-- Ensure that the website exhibits a responsive design, catering to users across various devices, including mobile, tablet, and laptop screens.
-- Participants have the liberty to redesign and reimagine the website's visual theme and layout. While a retro-futurism theme holds the potential for bonus points, participants are free to choose themes that align with their creative direction.
-- Examine the base project meticulously and rectify any detected glitches or issues to ensure a seamless user experience.
-- The changes have to be made in the given project only, building from scratch might lead to disqualification
+- **User-Friendly Subscription**: Our Newsletter Subscription system provides a simple and user-friendly subscription process. Users can easily opt-in to receive our newsletter by providing their email address .
 
-## Optional Backend
+- **Data Security**: We take data privacy seriously. Our backend system is designed with security in mind to protect user data. We employ industry-standard encryption and security measures to safeguard user information.
 
-- Develop a robust backend system to facilitate newsletter subscription and corresponding unsubscription through a mailing list.
-- Establish a comprehensive database infrastructure to manage ticket purchases, with the capability to set ticket limits for premium exhibitions.
-- Implement a secure and efficient backend for ticket booking, ensuring a seamless user experience.
+- **Opt-Out Options**: We respect our users' choices. Subscribers have the option to unsubscribe from the newsletter at any time. We include an easy-to-find unsubscribe link in every newsletter if no unsubscribe link is provided user can contact us through our website we will immediately resond to ther query it ensures that users have full control over their subscription preferences.
+
+### Contact Us page
+- **Contact Form**: Our Contact Us page features a user-friendly contact form where users can enter their name, email address, number, and message. This form ensures that users can reach out to us with their inquiries or feedback effortlessly.
+
+- **Validation**: The contact form includes validation to ensure that users provide all the necessary information. It ensures that fields are not submitted empty, enhancing the user experience.
+
+- **Responsive Design**: The Contact Us page is designed to be responsive, adapting to different screen sizes and devices. Whether users access the website on a desktop computer, tablet, or mobile phone, the contact form remains accessible and easy to use.
+
+- **Submission Confirmation**: After users submit their messages through the contact form, they receive a confirmation message to let them know that their message has been successfully sent. This feature reassures users that their feedback or inquiries have been received.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install any necessary dependencies for backend.
+3. Copy env.example to .env and set environment variables properly.
+4. Run the project locally and for the backend change your directory to backend and run npm start it starts express js development server.
+
