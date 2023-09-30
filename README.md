@@ -78,3 +78,8 @@ To get started with this project, follow these steps:
 3. Copy env.example to .env and set environment variables properly.
 4. Run the project locally and for the backend change your directory to backend and run npm start it starts express js development server.
 
+## Demo Video
+
+
+https://github.com/Ansh-Rajput/isocEum/assets/114243948/05ec63be-d6d9-414c-86bb-4a6c6c341df4
+
